@@ -16,7 +16,7 @@ def about():
     return render_template('about.html', names=names, title=title)
 
 
-@app.route('/subscribe')
+@app.route('/contact')
 def subscribe():
-    title = "Subscribe to My Email Newsletter"
-    return render_template("subscribe.html", title=title)
+    title = "Contact Me"
+    return render_template("contact.html", title=title)
